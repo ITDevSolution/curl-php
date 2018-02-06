@@ -3,7 +3,7 @@ clase sencilla para utilizar fácilmente la librería curl.
 
 ### uso simplificado
 ```sh
-	$conect = new cURL();
+	$curl = new cURL();
 	$html = $curl->send("URL"); // GET
 	
 	$html = $curl->send("URL", $array); //POST  => array( "name"=>"value" )
